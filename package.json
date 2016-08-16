@@ -1,0 +1,32 @@
+{
+  "name": "hello-gitlab-ci",
+  "version": "1.0.0",
+  "description": "Project to explore and understand Gitlab CI service",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "test": "mocha --timeout 10000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/puranik3/hello-gitlab-ci.git"
+  },
+  "keywords": [
+    "gitlab",
+    "gitlab-ci",
+    ".gitlab-ci.yml",
+    "ci",
+    "continuous integration"
+  ],
+  "author": "Prashanth Puranik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/puranik3/hello-gitlab-ci/issues"
+  },
+  "homepage": "https://github.com/puranik3/hello-gitlab-ci#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.0.2",
+    "request": "^2.74.0"
+  }
+}
